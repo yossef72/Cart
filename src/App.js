@@ -1,6 +1,6 @@
 
 import './App.css';
-import { RouterProvider,  createHashRouter } from 'react-router-dom';
+import { RouterProvider,  createBrowserRouter } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
 import Cart from './Components/Cart/Cart';
@@ -14,7 +14,7 @@ function App() {
 
 
 
-let routers= createHashRouter([
+let routers= createBrowserRouter([
 
 {
   path: '/' , element:<Layout/>,children : [
