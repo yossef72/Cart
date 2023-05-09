@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useShopCart } from '../../Context/ShareContext'
+
 
 export default function Navbar() {
 
-let{openCard, getItemQuantity}=useShopCart()
 
 
 
